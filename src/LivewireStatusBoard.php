@@ -24,6 +24,7 @@ use Livewire\Component;
  */
 class LivewireStatusBoard extends Component
 {
+    public $id;
     public $sortable;
     public $sortableBetweenStatuses;
 
