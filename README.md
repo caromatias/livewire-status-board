@@ -4,14 +4,14 @@ Livewire component to show records/data according to their current status
 
 ### Preview
 
-![preview](https://github.com/asantibanez/livewire-status-board/raw/master/preview.gif)
+![preview](https://github.com/caromatias/livewire-status-board/raw/master/preview.gif)
 
 ### Installation
 
 You can install the package via composer:
 
 ```bash
-composer require asantibanez/livewire-status-board
+composer require caromatias/livewire-status-board
 ```
 
 ### Requirements
@@ -123,7 +123,7 @@ To render the component in a view, just use the Livewire tag or include syntax
 
 Populate the Sales Order model and you should have something similar to the following screenshot
 
-![basic](https://github.com/asantibanez/livewire-status-board/raw/master/basic.jpg)
+![basic](https://github.com/caromatias/livewire-status-board/raw/master/basic.jpg)
 
 You can render any render and statuses of your project using this approach 👍
 
@@ -246,7 +246,7 @@ public function styles()
 
 With these new styles, your component should look like the screenshot below
 
-![basic](https://github.com/asantibanez/livewire-status-board/raw/master/styles.jpg)
+![basic](https://github.com/caromatias/livewire-status-board/raw/master/styles.jpg)
 
 Looks like Trello, right? 😅
 
@@ -291,7 +291,7 @@ Note: These views are optional.
 
 In the following example, a `before-status-board-view` has been specified to add a search text box and a button
 
-![extra-views](https://github.com/asantibanez/livewire-status-board/raw/master/extra-views.jpg)
+![extra-views](https://github.com/caromatias/livewire-status-board/raw/master/extra-views.jpg)
 
 ### Testing
 

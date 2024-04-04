@@ -1,13 +1,13 @@
 <?php
 
-namespace Asantibanez\LivewireStatusBoard;
+namespace Caromatias\LivewireStatusBoard;
 
 use Illuminate\Support\Collection;
 use Livewire\Component;
 
 /**
  * Class LivewireStatusBoard
- * @package Asantibanez\LivewireStatusBoard
+ * @package Caromatias\LivewireStatusBoard
  * @property boolean $sortable
  * @property boolean $sortableBetweenStatuses
  * @property string $statusBoardView

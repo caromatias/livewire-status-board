@@ -1,8 +1,8 @@
 <?php
 
-namespace Asantibanez\LivewireStatusBoard\Tests;
+namespace Caromatias\LivewireStatusBoard\Tests;
 
-use Asantibanez\LivewireStatusBoard\LivewireStatusBoardServiceProvider;
+use Caromatias\LivewireStatusBoard\LivewireStatusBoardServiceProvider;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as BaseCase;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Asantibanez\LivewireStatusBoard\Tests;
+namespace Caromatias\LivewireStatusBoard\Tests;
 
-use Asantibanez\LivewireStatusBoard\LivewireStatusBoard;
+use Caromatias\LivewireStatusBoard\LivewireStatusBoard;
 use Livewire\LivewireManager;
 use Livewire\Testing\TestableLivewire;
 
