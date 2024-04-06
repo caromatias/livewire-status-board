@@ -9,8 +9,9 @@
 
         <div
             id="{{ $status['statusRecordsId'] }}"
+            data-status-group="{{ $status['group'] }}"
             data-status-id="{{ $status['id'] }}"
-            class="{{ $styles['statusRecords'] }}">
+            class="status-container {{ $styles['statusRecords'] }}">
 
             @foreach($status['records'] as $record)
                 @include($recordView, [

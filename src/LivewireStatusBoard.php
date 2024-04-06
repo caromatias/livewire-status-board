@@ -42,8 +42,8 @@ class LivewireStatusBoard extends Component
 
     public $recordClickEnabled;
 
-    public function mount($sortable = false,
-                          $sortableBetweenStatuses = false,
+    public function mount($sortable = true,
+                          $sortableBetweenStatuses = true,
                           $statusBoardView = null,
                           $statusView = null,
                           $statusHeaderView = null,
@@ -136,8 +136,9 @@ class LivewireStatusBoard extends Component
 
         $statuses = $statuses
             ->map(function ($status) use ($records) {
-                $status['group'] = $this->id;
-                $status['statusRecordsId'] = "{$this->id}-{$status['id']}";
+                $id = $this->id ?? 0;
+                $status['group'] = $id;
+                $status['statusRecordsId'] = "{$id}-{$status['id']}";
                 $status['records'] = $records
                     ->filter(function ($record) use ($status) {
                         return $this->isRecordInStatus($record, $status);
