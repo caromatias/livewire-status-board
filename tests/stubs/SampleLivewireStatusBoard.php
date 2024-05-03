@@ -65,7 +65,7 @@ class SampleLivewireStatusBoard extends LivewireStatusBoard
         $this->statusSortedCalled = true;
     }
 
-    public function onStatusChanged($recordId, $statusId, $fromOrderedIds, $toOrderedIds)
+    public function onStatusChanged($recordId, $fromStatusId, $statusId, $fromOrderedIds, $toOrderedIds)
     {
         $this->statusChangedCalled = true;
     }

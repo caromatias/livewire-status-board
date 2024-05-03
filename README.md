@@ -175,7 +175,7 @@ about the `record` that was changed, the new `status`, the ordered ids from the 
 of the new status the record in entering. To be notified about this event, you must override the following method:
 
 ```php
-public function onStatusChanged($recordId, $statusId, $fromOrderedIds, $toOrderedIds)
+public function onStatusChanged($recordId, $fromStatusId, $statusId, $fromOrderedIds, $toOrderedIds)
 {
     //
 }

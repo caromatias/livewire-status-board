@@ -78,7 +78,7 @@ class SampleLivewireStatusBoardTest extends TestCase
         $this->assertFalse($component->viewData('statusChangedCalled'));
 
         //Act
-        $component->runAction('onStatusChanged', null, null, null, null);
+        $component->runAction('onStatusChanged', null, null,null, null, null);
 
         //Assert
         $this->assertTrue($component->viewData('statusChangedCalled'));

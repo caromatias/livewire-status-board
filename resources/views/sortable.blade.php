@@ -29,7 +29,7 @@
                     const toStatusId = evt.to.dataset.statusId;
                     const toOrderedIds = [].slice.call(evt.to.children).map(child => child.id);
 
-                    @this.call('onStatusChanged', recordId, toStatusId, fromOrderedIds, toOrderedIds);
+                    @this.call('onStatusChanged', recordId, fromStatusId, toStatusId, fromOrderedIds, toOrderedIds);
                 },
             });
         })

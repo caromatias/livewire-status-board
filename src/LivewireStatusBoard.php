@@ -102,7 +102,7 @@ class LivewireStatusBoard extends Component
         //
     }
 
-    public function onStatusChanged($recordId, $statusId, $fromOrderedIds, $toOrderedIds)
+    public function onStatusChanged($recordId, $fromStatusId, $statusId, $fromOrderedIds, $toOrderedIds)
     {
         //
     }
